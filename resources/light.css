@@ -1,0 +1,138 @@
+
+/*весь бек на окна*/
+window {
+  background: linear-gradient(170deg, #022845, #046dbd);
+}
+
+button {
+    background: #022845;
+    color: black;
+    box-shadow: 2px 2px 2px #011524;
+    border-color: #046dbd;
+}
+
+scrollbar trough {
+  background-color: #022845; /* Цвет фона полосы прокрутки */
+}
+
+scrollbar slider {
+  background-color: #046dbd; /* Цвет полосы прокрутки */
+  border: 1px solid black; /* Цвет обводки скроллбара */
+  border-radius: 6px; /* Радиус скругления углов полосы прокрутки */
+}
+
+/*свитч в меню настроек темы*/
+switch{
+    color: #046dbd;
+    background-color: #022845;
+    border-color: #046dbd;
+}
+
+switch slider{
+    background-color: #ff0000;
+    border: 2px solid #046dbd;
+    border-radius: 15px; /* Радиус скругления углов полосы прокрутки */
+}
+
+
+label {
+    font-size: 13px;
+    color: white;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.textview {
+    font-size: 15px;
+}
+.text_entry {
+    background-color: #01508c;
+    color: white;
+    border-radius: 10px
+}
+
+/*тот же что и .text_entry*/
+#box_sent_message {
+    background-color: #012540;
+    border-radius: 10px
+}
+#sent_message text {
+    background-color: #012540;
+    color: white;
+}
+#sent_message {
+    font-size: 15px;
+}
+
+#sent_message_inactive text {
+    background-color: #012540;
+    color: grey;
+}
+#sent_message_inactive {
+    font-size: 15px;
+}
+
+.message-box {
+    background: linear-gradient(170deg, #022845, #046dbd);
+    color: white;
+    border-radius: 10px
+}
+
+#button_add_user{
+    border-radius: 10px
+}
+#button_user_name{
+    border: none;
+}
+#button_user_name:active{
+    background-color: #022845;
+}
+#button_user_name:hover{
+     background-color: #022845;
+}
+#box_name_close {
+    background-color: #022845;
+    font-size: 16px;
+}
+#box_send_photo {
+    color: black;
+    border-radius: 10px
+}
+#edit_msg {
+    
+}
+
+/* Стили для текстовых полей в диалоговом окне */
+.file_inspector {
+  background-color: #022845;
+}
+
+.file_inspector list {
+  background-color: #022845;
+}
+.file_inspector scale {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.file_inspector {
+  background-color: #022845;
+}
+
+.file_inspector .view {
+    color: white;
+  background-color: #022845;
+}
+
+.file_inspector .view:selected {
+  background-color: #046dbd;
+  color: white;
+}
+
+.menu {
+    background-color: #046dbd;
+    color: white;
+}
+
+#user_name_chat_menu {
+    font-size: 30px;
+}
